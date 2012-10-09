@@ -1,0 +1,16 @@
+Description: Debian specific: fix copyright path in manpage
+Author: J.H.M. Dassen (Ray) <jdassen@debian.org>
+Forwarded: not-needed
+Last-Update: 2010-07-10
+
+--- a/pstotext.1
++++ b/pstotext.1
+@@ -128,7 +128,7 @@
+ .br
+ Distributed only by permission.
+ .br
+-See file pstotext.txt for details.
++See file /usr/share/doc/pstotext/copyright for details.
+ .br
+ .BR
+ .PP
