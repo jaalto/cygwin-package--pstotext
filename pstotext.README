@@ -1,14 +1,13 @@
-<PKG>
+pstotext
 ------------------------------------------
 
-<One line description - sdesc of setup.hint>
+Extract text from PostScript and PDF files
 
-<Short description, paragraph - ldesc of setup.hint>
-
-<For perl>
-Before use, install additional perl modules:
-
-    cpan MODULE ...
+Extract text (in the ISO 8859-1 character set) from a PostScript or
+PDF (Portable Document Format) file. Thus, pstotext is similar to the
+ps2ascii program that comes with ghostscript. The output of pstotext
+is however better than that of ps2ascii, because pstotext deals better
+with punctuation and ligatures.
 
 Runtime requirements:
   cygwin
@@ -17,10 +16,12 @@ Build requirements:
   cygwin
 
 Canonical homepage:
-  http://... <where the upstream, non-cygwinize package lives>
+  http://freecode.com/projects/pstotext
+  http://www.cs.wisc.edu/~ghost/doc/pstotext.htm
+  http://packages.debian.org/pstotext
 
 Canonical download:
-  ftp://...  <ditto>
+  See above
 
 Version control repository:
 
@@ -31,11 +32,12 @@ Forum / Wiki:
 IRC channel:
 
 Upstream contact:
-  Maintainer:
+  Maintainer: Russell Lang <gsview.ghostgum.com.au>
   Bugs:
 
 License:
-  GPL
+  ... See Debian homepage => Copyright information
+  Custom ("grant ... free of charge")
 
 Language:
   C
@@ -43,23 +45,24 @@ Language:
 ------------------------------------------
 
 Build instructions:
-  unpack <PKG>-*-src.tar.bz2
+  unpack pstotext-*-src.tar.bz2
     if you use setup to install this source package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
-  ./<PKG>*.sh all
+  ./pstotext*.sh all
 
 ------------------------------------------
 
 Files included in the binary distribution:
-  See content of *.tar.gz
+  See Cygwin package archive
 
 ------------------------------------------
 
 Port Notes:
+- the "mime" file is from Debian package.
 
------ version <VER>-<REL> -----
-- Initial release YYYY-MM-DD Firstname Lastname
+----- version 1.9-1 -----
+- Initial release 2012-10-09 Jari Aalto
 
-Cygwin port maintained by: Firstname Lastname <Your email here>
-Copyright (C) YYYY Firstname Lastname; Licensed under GPL v2 or later
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012 Jari Aalto; Licensed under GPL v2 or later

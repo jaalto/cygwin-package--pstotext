@@ -1,10 +1,8 @@
-# See http://cygwin.com/setup.html   The 'category' can be:
-# Accessibility Admin Archive Audio Base Comm Database Devel Doc Editors
-# Games Gnome Graphics Interpreters Libs Mail Math Mingw Net Perl Python
-# Publishing Security Shells System Text Utils Web X11
-sdesc: ""
-ldesc: ""
-category: name [name...]
-requires: [package...]
-external-source: package
-conflicts:
+sdesc: "Extract text from PostScript and PDF files"
+ldesc: "Extract text (in the ISO 8859-1 character set) from a PostScript or
+PDF (Portable Document Format) file. Thus, pstotext is similar to the
+ps2ascii program that comes with ghostscript. The output of pstotext
+is however better than that of ps2ascii, because pstotext deals better
+with punctuation and ligatures."
+category: Utils
+requires: ghostscript

@@ -1,15 +1,18 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: package N.N
-Subject: New package: package N.N -- decription
+Subject: New package: package 1.9-1 -- Extract text from PostScript and PDF files
 --text follows this line--
 
 PACKAGE DESCRIPTION
 ===================
 
-Homepage:
-License : GPL
+Homepage: http://freecode.com/projects/pstotext
+License : Custom ("grant ... free of charge")
 
-<write description here>
+Extract text (in the ISO 8859-1 character set) from a PostScript or
+PDF (Portable Document Format) file. Thus, pstotext is similar to the
+ps2ascii program that comes with ghostscript. The output of pstotext
+is however better than that of ps2ascii, because pstotext deals better
+with punctuation and ligatures.
 
 CHANGES SINCE LAST RELEASE
 ==========================

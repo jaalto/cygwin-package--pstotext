@@ -1,3 +1,4 @@
+# These entries are form Debian package: pstetext
 application/postscript; pstotext %s; test=test -z "$LYNX_VERSION"; copiousoutput; description="PostScript document"; priority=4
 application/postscript; pstotext %s; test=test -n "$LYNX_VERSION"; description="PostScript document"; priority=4
 application/ghostview;  pstotext %s; test=test -z "$LYNX_VERSION"; copiousoutput; description="PostScript document"; priority=4
