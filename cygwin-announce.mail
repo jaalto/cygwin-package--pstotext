@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: New package: package 1.9-1 -- Extract text from PostScript and PDF files
+Subject: New package: pstotext 1.9-1 -- Extract text from PostScript and PDF files
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -17,12 +17,12 @@ with punctuation and ligatures.
 CHANGES SINCE LAST RELEASE
 ==========================
 
-<Add this section if this is update>
+See release notes at http://pages.cs.wisc.edu/~ghost/doc/pstotext.htm
 
 INSTALL OR UPGRADE NOTES
 ========================
 
-<if anything to watch out>
+Standard install.
 
 CYGWIN INSTALLATION INFORMATION
 ===============================
